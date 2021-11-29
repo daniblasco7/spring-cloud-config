@@ -25,6 +25,7 @@ spring:
   datasource:
     initialization-mode: always
     platform: postgres
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:postgresql://bdservicioviajes:5432/ejercicio4
     username: postgres
     password: 1234
