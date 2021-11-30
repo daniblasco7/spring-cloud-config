@@ -1,0 +1,40 @@
+server:
+  port: 8082
+feign:
+  name: ServicioViajes
+  url: 'servicio-viajes:8081'
+hoteles:
+  info: http://hotel-reservation-service:9990/hotels?country=
+  reserva: http://hotel-reservation-service:9990/reservations
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://service-registry:8761/eureka
+spring:
+  main:
+    banner-mode: off
+  application:
+    name: ServicioCentral
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: create
+      show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  datasource:
+    initialization-mode: always
+    platform: postgres
+    url: jdbc:postgresql://bdserviciocentral:5432/ejercicio4
+    username: postgres
+    password: 1234
+logging:
+  level:
+    org:
+      springframework: ERROR
