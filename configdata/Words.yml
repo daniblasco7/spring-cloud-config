@@ -6,9 +6,7 @@ server:
   port: 8000
 listaPalabras: lista, de, palabras, aleatorias
 tipoPalabra: words
-
 ---
-
 spring:
   config:
     activate:
@@ -17,9 +15,7 @@ server:
   port: 8081
 listaPalabras: I,You,He,She,It
 tipoPalabra: sujeto
-
 ---
-
 spring:
   config:
     activate:
@@ -28,9 +24,7 @@ server:
   port: 8082
 listaPalabras: ran,knew,had,saw,bought
 tipoPalabra: verbo
-
 ---
-
 spring:
   config:
     activate:
@@ -39,9 +33,7 @@ server:
   port: 8083
 listaPalabras: a,the
 tipoPalabra: articulo
-
 ---
-
 spring:
   config:
     activate:
@@ -50,9 +42,7 @@ server:
   port: 8084
 listaPalabras: reasonable,leaky,suspicious,ordinary,unlikely
 tipoPalabra: adjetivo
-
 ---
-
 spring:
   config:
     activate:
