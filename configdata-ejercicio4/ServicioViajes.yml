@@ -11,6 +11,7 @@ spring:
     user:
       name: root
       password: root
+      roles:
   main:
     banner-mode: off
   application:
