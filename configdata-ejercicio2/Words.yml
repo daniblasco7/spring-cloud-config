@@ -9,10 +9,6 @@ tipoPalabra: words
 
 ---
 
-spring:
-  config:
-    activate:
-      on-profile: sujeto
 server:
   port: 8081
 listaPalabras: I,You,He,She,It
@@ -20,10 +16,6 @@ tipoPalabra: sujeto
 
 ---
 
-spring:
-  config:
-    activate:
-      on-profile: verbo
 server:
   port: 8082
 listaPalabras: ran,knew,had,saw,bought
@@ -31,10 +23,6 @@ tipoPalabra: verbo
 
 ---
 
-spring:
-  config:
-    activate:
-      on-profile: articulo
 server:
   port: 8083
 listaPalabras: a,the
@@ -42,19 +30,13 @@ tipoPalabra: articulo
 
 ---
 
-spring:
-  config:
-    activate:
-      on-profile: adjetivo
 server:
   port: 8084
 listaPalabras: reasonable,leaky,suspicious,ordinary,unlikely
 tipoPalabra: adjetivo
+
 ---
-spring:
-  config:
-    activate:
-      on-profile: nombre
+
 server:
   port: 8085
 listaPalabras: boat,book,vote,seat,backpack,partition,groundhog
