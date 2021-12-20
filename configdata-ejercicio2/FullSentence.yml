@@ -1,11 +1,11 @@
 server:
   port: 8080
 spring:
-  application:
-    name: FullSentence
   config:
     activate:
       on-profile: fullsentence
+  application:
+    name: FullSentence
   security:
     user:
       name: dani
