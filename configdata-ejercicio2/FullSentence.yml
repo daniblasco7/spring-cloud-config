@@ -6,8 +6,3 @@ spring:
   config:
     activate:
       on-profile: fullsentence
-  security:
-    user:
-      name: dani
-      password: 1234
-      roles:
