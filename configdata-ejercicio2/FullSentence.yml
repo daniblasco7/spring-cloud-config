@@ -1,5 +1,10 @@
-spring.application.name=FullSentence
-server.port=8080
-spring.security.user.name=root
-spring.security.user.password=root
-spring.security.user.roles=           # roles por defecto
+server:
+  port: 8080
+spring:
+  application:
+    name: FullSentence
+  security:
+    user:
+      name: root
+      password: root
+      roles:
