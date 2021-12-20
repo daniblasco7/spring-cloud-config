@@ -5,7 +5,7 @@ spring:
     name: FullSentence
   config:
     activate:
-      on-profile: FullSentence
+      on-profile: fullsentence
   security:
     user:
       name: dani
