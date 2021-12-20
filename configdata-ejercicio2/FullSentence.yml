@@ -5,6 +5,6 @@ spring:
     name: FullSentence
   security:
     user:
-      name: root
-      password: root
+      name: dani
+      password: 1234
       roles:
