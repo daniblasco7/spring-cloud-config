@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: FullSentence
+  config:
+    activate:
+    on-profile: fullsentence
   security:
     user:
       name: dani
