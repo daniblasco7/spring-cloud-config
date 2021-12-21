@@ -15,9 +15,9 @@ eureka:
 spring:
   security:
     user:
-      name: root
-      password: root
-      roles:
+      name: dani
+      password: 1234
+      roles: ADMIN
   main:
     banner-mode: off
   application:
