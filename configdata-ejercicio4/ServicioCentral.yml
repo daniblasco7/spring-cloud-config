@@ -13,11 +13,6 @@ eureka:
     serviceUrl:
       defaultZone: http://service-registry:8761/eureka
 spring:
-  security:
-    user:
-      name: dani
-      password: 1234
-      roles: ADMIN
   main:
     banner-mode: off
   application:
