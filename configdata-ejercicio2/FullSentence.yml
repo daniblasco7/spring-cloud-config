@@ -6,3 +6,17 @@ spring:
   config:
     activate:
       on-profile: fullsentence
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ejercicio1
+    username: postgres
+    password: 1234
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        temp:
+          use_jdbc_metadata_defaults: false
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
