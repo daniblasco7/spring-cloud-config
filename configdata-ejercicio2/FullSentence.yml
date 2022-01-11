@@ -5,9 +5,6 @@ spring:
     banner-mode: off
   application:
     name: FullSentence
-  config:
-    activate:
-      on-profile: fullsentence
   datasource:
     url: jdbc:postgresql://usersdb:5432/ejercicio1
     username: postgres
