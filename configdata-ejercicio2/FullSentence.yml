@@ -6,7 +6,7 @@ spring:
   application:
     name: FullSentence
   datasource:
-    url: jdbc:postgresql://localhost:5432/ejercicio1
+    url: jdbc:postgresql://usersdb:5432/ejercicio1
     username: postgres
     password: 1234
   jpa:
