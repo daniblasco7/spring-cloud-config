@@ -19,7 +19,7 @@ spring:
   datasource:
     initialization-mode: always
     platform: postgres
-    url: jdbc:postgresql://usersdb:5432/ejercicio1
+    url: jdbc:postgresql://usersdb:5432/ejercicio4
     username: postgres
     password: 1234
 logging:
