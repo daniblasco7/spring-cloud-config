@@ -9,20 +9,3 @@ eureka:
 spring:
   application:
     name: ServiceTravel
-  jpa:
-    hibernate:
-      dialect: org.hibernate.dialect.PostgreSQLDialect
-      ddl-auto: create
-      show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        jdbc:
-          lob:
-            non_contextual_creation: true
-  datasource:
-    initialization-mode: always
-    platform: postgres #jdbc:postgresql://bdservicioviajes:5432/holidayreservation
-    url: jdbc:postgresql://localhost:5432/holidayreservation
-    username: postgres
-    password: 1234
