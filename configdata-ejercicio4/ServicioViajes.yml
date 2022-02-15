@@ -28,7 +28,7 @@ spring:
           lob:
             non_contextual_creation: true
   datasource:
-    initialization-mode: always
+    initialization-mode: never
     platform: postgres
     url: jdbc:postgresql://bdservicioviajes:5432/ejercicio4
     username: postgres
